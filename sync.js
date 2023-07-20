@@ -80,7 +80,7 @@ const sync = () => {
       // Merge the repositories together
       const BRANCH = module.branch || "main"
       execSync(
-        `git merge --no-commit ${SERVICE_REMOTE_NAME}/${BRANCH}`,
+        `git merge --no-commit --allow-unrelated-histories ${SERVICE_REMOTE_NAME}/${BRANCH}`,
         {
           stdio: [0, 1, 2],
           cwd: PATH_REPO,
