@@ -4,7 +4,7 @@
 function main() {
 	console.log("++++++++++++++++++++")
 	console.log("Calling Main")
-	console.log("Hello from module-a")
+	console.log("Hello from monorepo")
 	console.log("Thanks")
 	console.log("++++++++++++++++++++")
 }
