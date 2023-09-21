@@ -3,5 +3,9 @@
   "private": true,
   "workspaces": [
     "packages/**"
-  ]
+  ],
+  "scripts": {
+    "sync:in": "node syncin",
+    "sync:out": "node syncout"
+  }
 }
